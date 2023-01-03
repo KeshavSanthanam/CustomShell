@@ -6,7 +6,7 @@
 #include <stdbool.h>
 #define HISTORY_MAX 100
 #define POSIX_C_SOURCE 200809L
-
+ 
 extern char* strdup(const char*); 
 extern ssize_t getline (char **restrict lineptr, size_t *restrict n, FILE *restrict stream); 
 extern char* strtok_r(char *restrict str, const char *restrict delim, char **restrict saveptr); 
